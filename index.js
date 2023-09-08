@@ -17,8 +17,8 @@ app.get('/api', (req, res) => {
   now.setMinutes(now.getMinutes() - 2);
   const utcTime = now.toISOString();
 
-  const githubRepoUrl = 'https://github.com/username/repo';
-  const githubFileUrl = `${githubRepoUrl}/blob/main/file_name.ext`;
+  const githubRepoUrl = 'https://github.com/WackyDawg/HNGX-Backend-Project-1';
+  const githubFileUrl = `${githubRepoUrl}/blob/main/index.js`;
 
   const response = {
     slack_name,
