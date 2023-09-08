@@ -1,0 +1,19 @@
+{
+  "name": "hngx-backend-project",
+  "version": "1.0.0",
+  "description": "A simple Node.js API endpoint that provides information including Slack name, current day of the week, current UTC time, track, and GitHub URLs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WackyDawg/HNGX-Backend-Project-1.git"
+  },
+  "author": "Julian Chibuike Nwadinobi (wackydawg)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WackyDawg/HNGX-Backend-Project-1/issues"
+  },
+  "homepage": "https://github.com/WackyDawg/HNGX-Backend-Project-1#readme"
+}
