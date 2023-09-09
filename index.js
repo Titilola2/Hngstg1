@@ -13,9 +13,8 @@ app.get('/api', (req, res) => {
   const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const currentDay = daysOfWeek[new Date().getDay()];
 
-  const now = new Date();
-  now.setMinutes(now.getMinutes() - 2);
-  const utcTime = now.toISOString();
+  // Format UTC time in the desired format
+  const now = new Date().toISOString().slice(0, 19) + 'Z';
 
   const githubRepoUrl = 'https://github.com/WackyDawg/HNGX-Backend-Project-1';
   const githubFileUrl = `${githubRepoUrl}/blob/main/index.js`;
@@ -23,7 +22,7 @@ app.get('/api', (req, res) => {
   const response = {
     slack_name,
     current_day: currentDay,
-    utc_time: utcTime,
+    utc_time: now,
     track,
     github_file_url: githubFileUrl,
     github_repo_url: githubRepoUrl,
