@@ -13,9 +13,9 @@
   "author": "Olafare Grace Tiilola",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WackyDawg/HNGX-Backend-Project-1/issues"
+    "url": "https://github.com/Titilola2/Hngstg1/issues"
   },
-  "homepage": "https://github.com/WackyDawg/HNGX-Backend-Project-1#readme",
+  "homepage": "https://github.com/Titilola2/Hngstg1#readme",
   "dependencies": {
     "express": "^4.18.2"
   }
