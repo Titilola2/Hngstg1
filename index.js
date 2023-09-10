@@ -16,7 +16,7 @@ app.get('/api', (req, res) => {
   
   const now = new Date().toISOString().slice(0, 19) + 'Z';
 
-  const githubRepoUrl = 'https://github.com/WackyDawg/HNGX-Backend-Project-1';
+  const githubRepoUrl = 'https://github.com/Titilola2/Hngstg1';
   const githubFileUrl = `${githubRepoUrl}/blob/main/index.js`;
 
   const response = {
