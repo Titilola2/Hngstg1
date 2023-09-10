@@ -13,7 +13,7 @@ app.get('/api', (req, res) => {
   const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const currentDay = daysOfWeek[new Date().getDay()];
 
-  // Format UTC time in the desired format
+  
   const now = new Date().toISOString().slice(0, 19) + 'Z';
 
   const githubRepoUrl = 'https://github.com/WackyDawg/HNGX-Backend-Project-1';
